@@ -106,3 +106,8 @@ app.*.map.json
 *serviceAccount*.json
 *-firebase-adminsdk-*.json
 application_default_credentials.json
+
+# Firebase client configuration (regenerate for each Firebase project)
+**/google-services.json
+**/GoogleService-Info.plist
+/lib/firebase_options.dart
